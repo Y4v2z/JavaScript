@@ -165,9 +165,10 @@ console.log(val);
 // }
 
 for (let i = 0; i < list.childNodes.length; i++) {
-    if (list.childNodes[i].nodeType === 1)
-
+    if (list.childNodes[i].nodeType === 1) {
+        console.log("leave my children alone....")
         console.log(list.childNodes[i]);
+    }
 }
 
 
