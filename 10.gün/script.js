@@ -173,5 +173,5 @@ for (let i = 0; i < list.childNodes.length; i++) {
 
 
 
-
+console.log("birol was here too....")
 
