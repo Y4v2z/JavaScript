@@ -171,10 +171,9 @@ for (let i = 0; i < list.childNodes.length; i++) {
     }
 }
 
-
-
-
 console.log("birol was here too....")
 console.log("Kardesim bir satir birsey yaz diyoruz. Branch ekledim push yapacam diyorsun yeaaa.....")
 console.log("yollayamadi bak... yarin bakalim bakalim...")
+
+console.log("Birol was here...")
 
