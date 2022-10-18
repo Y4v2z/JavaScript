@@ -176,4 +176,6 @@ console.log("Kardesim bir satir birsey yaz diyoruz. Branch ekledim push yapacam 
 console.log("yollayamadi bak... yarin bakalim bakalim...")
 
 console.log("Birol was here...")
-
+let header = document.getElementById("header");
+header.innerHTML = "Birol was here....";
+console.log("Insallah calisir da rezil kepaze olmayiz....");
