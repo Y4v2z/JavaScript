@@ -31,8 +31,26 @@
 
 // console.log(li);
 
+/*const li = document.createElement("li");
+li.className = "list-group-item list-group-item-secondary";
+const text = document.createTextNode("New İtem");
+li.appendChild(text);
+const a = document.createElement("a");
+a.className = "delete-item float-right";
+a.setAttribute("title", "New İtem");
+a.setAttribute("href", "#");
+a.setAttribute("data-id", "5");
+a.innerHTML = '<i class="fas fa-times"></i>';
+li.appendChild(a);
+document.querySelector("#task-list").appendChild(li);
+// document.getElementById("task-list").appendChild(li);
+console.log(li);*/
 
-// ****************************************************************
+
+
+
+
+// ******;*********************************************************
 
 
 
