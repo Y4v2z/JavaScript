@@ -165,13 +165,17 @@ console.log(val);
 // }
 
 for (let i = 0; i < list.childNodes.length; i++) {
-    if (list.childNodes[i].nodeType === 1)
-
+    if (list.childNodes[i].nodeType === 1) {
+        console.log("leave my children alone....")
         console.log(list.childNodes[i]);
+    }
 }
 
-
+console.log("birol was here too....")
+console.log("Kardesim bir satir birsey yaz diyoruz. Branch ekledim push yapacam diyorsun yeaaa.....")
+console.log("yollayamadi bak... yarin bakalim bakalim...")
 
 console.log("Birol was here...")
-
-
+let header = document.getElementById("header");
+header.innerHTML = "Birol was here....";
+console.log("Insallah calisir da rezil kepaze olmayiz....");
