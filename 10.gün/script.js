@@ -165,14 +165,13 @@
 // //     console.log(list.childNodes[i]);
 // // }
 
+
 // for (let i = 0; i < list.childNodes.length; i++) {
 //     if (list.childNodes[i].nodeType === 1)
 
 //         console.log(list.childNodes[i]);
 // }
 
-
-
-console.log("Birol was here...")
-
-
+let header = document.getElementById("header");
+header.innerHTML = "Birol was here....";
+console.log("Insallah calisir da rezil kepaze olmayiz....");
