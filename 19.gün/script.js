@@ -67,8 +67,10 @@ const phones = [
  });
  console.log(priceEs5);
  
- const priceEs6=phones.map(phone=>phone.price);
-
+//  const priceEs6=phones.map(phone=>phone.price);
+ const priceEs6=phones.map(phone=>{
+    return phone.price
+ })
 //  const priceEs6=phones.map(phone=>{return phone.price});
  console.log(priceEs6);
  
@@ -138,7 +140,7 @@ function Game(){
 let player=new Game();
 // player.addlive();
 
-
+// ********************************************
 // Spread Operator
 function getTotal(a,b,c,d){
     return a+b+c+d;
@@ -148,7 +150,8 @@ console.log(getTotal(10,20,30,40));
 let numbers=[10,20,30,40];
 // ES5
 console.log(getTotal.apply(null,numbers));
-
+// console.log(getTotal.apply(numbers,numbers));
+ 
 // ES6
 console.log(getTotal(...numbers));
 
@@ -157,14 +160,26 @@ let arr2=["one","four","five"];
 let arr3=["one", ...arr1,"four","five"]
 // arr1.push(...arr2);
 // arr1.unshift(...arr2);
-console.log(arr3);
+console.log(arr1);
 
 
 let h1=document.querySelector("h1");
 let divs=document.querySelectorAll("div");
 
+
 let tags=[h1, ...divs];
+console.log(tags);
 
 tags.forEach(tag=>tag.style.color="red");
+// tags.forEach(function(tag){
+//     return tag.style.color="blue"
+// });
+// tags.forEach((tag)=>{
+//     tag.style.color="yellow"
+// })
+// tags.forEach(tag=>{
+//     return tag.style.color="red"
+// });
+// yukarıda yaptığım haliyle farklı farklı yazılabilir.
 
 console.log(tags);
