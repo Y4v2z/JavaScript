@@ -144,13 +144,13 @@ const willGetNewPhone=new Promise((resolve,reject)=>{
 
 const showToFriends=function(phone){
     const message="Hi friends this is my new phone "+phone.name
-    return Promise.resolve(message);
+    // return Promise.resolve(message);
 }
 
 const askMom=function(){
     willGetNewPhone
-    .then(showToFriends)
-    .then(message=>console.log(message))
+    .then(showToFriends())
+    // .then(message=>console.log(message))
     .catch(error=>{
         console.log(error);
     })
